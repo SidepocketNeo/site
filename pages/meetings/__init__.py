@@ -10,9 +10,9 @@ class MeetingDetails:           # Any of these can be HTML formatted, but I'd re
     def Notice():               # Any important notices about the meeting or the information.
         return ""
     def CanonicalLink():        # A link that refers to this meeting
-        return "https://defcon201.medium.com/defcon-201-online-meet-up-april-2021-application-is-meditating-a2f717cb6ee3"
+        return "http://writeas7pm7rcdqg.onion/defcon201/defcon-201-online-meet-up-april-2021-application-is-meditating"
     def LinkName():             # What this link refers to (for instance "post on our Medium", "forum post", "tweet", "Meetup event")
-        return "post on our Medium"
+        return "post on our Write.As"
     def Summary():              # Short, 1-2 sentences about this meeting.
         return """
 Join us for this month's meet up as we deep dive into more traditional hacker AF topics from hardware maniuplation, exploits, digital archiving and more!
@@ -67,7 +67,7 @@ Join us for this month's meet up as we deep dive into more traditional hacker AF
         schedlist.append([None, None, None, "DEFCON 201 is streaming online.", None, "Live Streams are available at:"])
         schedlist.append([None, None, None, None, "Twitch",  '<a href="https://www.twitch.tv/defcon201live">https://www.twitch.tv/defcon201live</a><br>'])
         schedlist.append([None, None, None, None, "dLive",   '<a href="https://dlive.tv/defcon201">https://dlive.tv/defcon201</a><br>'])
-        schedlist.append([None, None, None, None, "YouTube", '<a href="https://www.youtube.com/c/defcon201">https://www.youtube.com/c/defcon201</a><br>'])
+        schedlist.append([None, None, None, None, "Invidious (TOR)", '<https://grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion/channel/UCYDQaOHbK5trRU2CDgb0qSg</a><br>'])
 
         schedlist.append([None, None, None, None, None, None])
 
